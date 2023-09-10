@@ -1,0 +1,62 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background-color: pink;
+    width: 90vw;
+    height: 85px;
+    border: 2px solidblack;
+   margin: 6px;
+    display: inline-block;
+margin-left: 45px;
+}
+.main ul{
+    list-style: none; 
+margin-left: 250px;
+margin-top: 20px;
+}
+
+.main ul li{
+    border: 1px solid black;
+    background-color: red;
+width: 125px;
+height: 35px;
+margin: 2px;
+
+text-align: center;
+position: relative;
+line-height: 35px;
+float: left;
+margin-left: 40px;
+border-radius: 5px;
+}
+
+.main ul li a{
+    text-decoration: none;
+   font-size: 19px;
+   display: block;
+         color: white;
+}
+.main ul li a:hover{
+   background-color: green;
+   border-radius: 8px;
+  
+
+}
+.main ul ul{
+    list-style: none;
+    margin-left: 0px;
+    position: absolute;
+    display: none;
+    margin-top: 0px;
+}
+.main ul li:hover > ul{
+    display: block;
+}
+.main ul ul ul{
+    list-style: none;
+    margin-left:90px;
+    top: 0px;
+}
