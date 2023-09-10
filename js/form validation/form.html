@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div class="section">
+    <div class="heading">
+      <h1>form validaton</h1>
+    </div>
+
+    <div class="form">
+
+      <form action="/myaction.php" name="myform" method="post" onsubmit="return formvalidation()" class="formcontrol">
+
+
+        <div class="formdesign" id="fname">
+          <label for="name">name</label>
+          <input type="text" name="name"  autocomplete="off"/><span class="error"> </span>
+        </div>
+
+
+        <div class="formdesign" id="mail" >
+          <label for="mail">email</label>
+          <input type="email" name="email" autocomplete="off" /><span class="error"> </span>
+        </div>
+
+
+        <div class="formdesign"  id="password">
+            <label for="password">password</label>
+            <input type="password" name="password"  autocomplete="off"/><span class="error"> </span>
+          </div>
+
+
+        <div class="formdesign"id="phone">
+          <label for="phone">phone</label>
+          <input type="phone" name="phonenumber"autocomplete="off"  /><span class="error"> </span>
+        </div>
+
+
+        <div class="formdesign but">
+          <button type="submit" id="btn">submit</button>
+        </div>
+
+      </form>
+    </div>
+</div>
+  </body>
+  <script src="fortm.js"></script>
+</html>
